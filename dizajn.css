@@ -1,0 +1,313 @@
+*{
+	box-sizing: border-box;
+	margin-top: 0;
+}
+
+html,
+body {
+   margin:0;
+   padding:0;
+   height:100%;
+}
+
+
+#header {
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100px;
+	background-color: #666;
+	text-align: center;
+	font-size: 2vw;
+	color: white;
+	z-index: 2;
+}
+
+
+
+#nav {
+	float: left;
+	width: 15%;
+	background: #AAA;
+	height: 100%;
+	padding-top: 100px;
+
+
+}
+
+#uvod {
+	padding-bottom: 20px;
+}
+
+#footer {
+	background-color: #666;
+	position:fixed;
+	width:100%;
+	bottom:0;
+	left:0;
+	padding: 10px;
+	text-align: center;
+	color: white;
+}
+
+
+#navLista {
+  list-style-type: none;
+  margin-top: 100px;
+  width: 100%;
+  height:100%;
+}
+
+#body {
+	margin-top: 0;
+	/*height :100%;*/
+}
+
+#logo1{
+	float:left;
+	height:100px; 
+	width:100px;
+}
+
+#logo2{
+	float:right;
+	height:100px; 
+	width:100px;
+}
+
+li a {
+  display: block;
+  color: #fff;
+  padding: 8px 16px;
+  text-decoration: none;
+}
+
+li a:hover {
+  background-color: #FFF;
+  color: black;
+}
+
+
+div#tablica table{
+	padding-left: 10px;
+	margin-top: 20px;
+	margin-bottom: 80px;
+}
+
+div#tablica table {
+	font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+	border-collapse: collapse;
+	width: 100%;
+	text-align = left;
+	/*style = "width:50%";*/
+
+}
+
+div#tablica td, th {
+	border: 5px solid #ddd;
+	padding: 8px;
+}
+
+div#tablica tr:nth-child(even){
+	background-color: #f2f2f2;
+	text-align: left;
+}
+
+div#tablica tr:hover {background-color: #ddd;}
+
+div#tablica th {
+	padding-top: 12px;
+	padding-bottom: 12px;
+	background-color: #666;
+	color: white;
+}
+
+#naz {
+	text-align: left;
+}
+
+.godina, #god {
+	text-align: right;
+}
+
+.drzava, #drz {
+	text-align: center;
+}
+ #olista{
+ 	padding: 30px;
+ }
+
+.column {
+	margin-top:100px;
+	float: left;
+	width: 42.5%;
+	padding: 15px;
+}
+
+
+@media screen and (max-width:900px) {
+  .column {
+    width: 80%;
+  }
+}
+
+.slike{
+	padding-right = 100px;
+}
+
+.imageOn #test:hover .imageOff{
+	display: none;
+}
+
+.imageOff #test:hover .imageOn{
+	display: block;
+}
+
+div#obrazac table{
+	margin-top:0;
+	float: center;
+	padding: 15px;
+	font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+	width: 100%;
+	text-align = left;
+
+}
+
+
+div#obrazac td {
+	padding: 5px;
+}
+
+.dva {
+	font-size: 20px;
+}
+
+
+
+/* DODATNO *//* DODATNO *//* DODATNO *//* DODATNO *//* DODATNO *//* DODATNO *//* DODATNO */
+/* DODATNO *//* DODATNO *//* DODATNO *//* DODATNO *//* DODATNO *//* DODATNO *//* DODATNO */
+
+
+
+
+
+img {
+  vertical-align: middle;
+}
+
+/* Position the image container (needed to position the left and right arrows) */
+.container {
+  position: relative;
+}
+
+/* Hide the images by default */
+.mySlides {
+  display: none;
+}
+
+/* Add a pointer when hovering over the thumbnail images */
+.cursor {
+  cursor: pointer;
+}
+
+/* Next & previous buttons */
+.prev,
+.next {
+  cursor: pointer;
+  position: absolute;
+  top: 40%;
+  width: auto;
+  padding: 16px;
+  margin-top: -50px;
+  color: white;
+  font-weight: bold;
+  font-size: 20px;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+  -webkit-user-select: none;
+}
+
+/* Position the "next button" to the right */
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover,
+.next:hover {
+  background-color: rgba(0, 0, 0, 0.8);
+}
+
+/* Number text (1/3 etc) */
+.numbertext {
+  color: #f2f2f2;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+
+
+.slidecontainer {
+  width: 100%; /* Width of the outside container */
+}
+
+/* The slider itself */
+.slider {
+  -webkit-appearance: none;  /* Override default CSS styles */
+  appearance: none;
+  width: 100%; /* Full-width */
+  height: 25px; /* Specified height */
+  background: #d3d3d3; /* Grey background */
+  outline: none; /* Remove outline */
+  opacity: 0.7; /* Set transparency (for mouse-over effects on hover) */
+  -webkit-transition: .2s; /* 0.2 seconds transition on hover */
+  transition: opacity .2s;
+}
+
+/* Mouse-over effects */
+.slider:hover {
+  opacity: 1; /* Fully shown on mouse-over */
+}
+
+/* The slider handle (use -webkit- (Chrome, Opera, Safari, Edge) and -moz- (Firefox) to override default look) */ 
+.slider::-webkit-slider-thumb {
+  -webkit-appearance: none; /* Override default look */
+  appearance: none;
+  width: 25px; /* Set a specific slider handle width */
+  height: 25px; /* Slider handle heigh*/
+  background: #ffff; /* Green background */
+  cursor: pointer; /* Cursor on hover */
+}
+
+.slider::-moz-range-thumb {
+  width: 25px; /* Set a specific slider handle width */
+  height: 25px; /* Slider handle height */
+  background: #00000000; /* Green background */
+  cursor: pointer; /* Cursor on hover */
+}
+
+.thumb{
+    width: 100px;
+    position: relative;
+    transition: 0.3s ease;
+    cursor: pointer;
+}
+.thumb:hover{
+	transform: scale(5,5) translate(-40px);
+	z-index: 2;
+}
+
+#loader{
+	visibility: hidden;
+}
+
+#mapid {
+	height: 200px;
+}
+
+
+
+
