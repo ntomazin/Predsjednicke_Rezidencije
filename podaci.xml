@@ -1,0 +1,250 @@
+<?xml version = "1.0" encoding = "UTF-8" standalone = "no" ?>
+<!DOCTYPE rezidencije SYSTEM "gramatika.dtd">
+<?xml-stylesheet type="text/xsl" href="pretvorba.xsl"?>
+
+<rezidencije>
+
+	<rezidencija ime = "The White House" trenutni_predsjednik = "Donald Trump" wiki =  "White_House">
+		<lokacija grad = "Washington DC">
+			<drzava> 
+				<SAD/> 
+			</drzava>
+			<adresa postanski_broj = "20500" ulica = "Pennsylvania Avenue NW" broj = "1600"></adresa>
+		</lokacija>
+		<izgradnja broj_katova="5">			
+			<arhitekt>James Hoban</arhitekt>
+			<velicina>
+				<preko_10000/>
+			</velicina>
+			<razdoblje godina = "1792.">
+				<stil_gradnje>
+					<renesansa/>
+				</stil_gradnje>
+			</razdoblje>
+		</izgradnja>
+	</rezidencija>
+
+	<rezidencija ime = "Elysee Palace" trenutni_predsjednik = "Emmanuel Macron" wiki ="Élysée_Palace">
+		<lokacija grad = "Paris">
+			<drzava> 
+				<Francuska/> 
+			</drzava>
+			<adresa postanski_broj = "75008" ulica = "Rue du Faubourg Saint-Honoré" broj = "55"></adresa>
+		</lokacija>
+		<izgradnja broj_katova="3">			
+			<arhitekt> Armand-Claude Mollet </arhitekt>
+			<!--<arhitekt> Jean Cailleteau </arhitekt>-->
+			<velicina>
+				<do_10000/>
+			</velicina>
+			<razdoblje godina = "1722.">
+				<stil_gradnje>
+					<klasicizam/>
+				</stil_gradnje>
+			</razdoblje>
+		</izgradnja>
+	</rezidencija>
+
+	<rezidencija ime = "Casa Rosada" trenutni_predsjednik = "Mauricio Macri" wiki="Casa_Rosada">
+		<lokacija grad = "Buenos Aires">
+			<drzava> 
+				<Argentina/> 
+			</drzava>
+			<adresa postanski_broj = "4178" ulica = "Balcarce" broj = "50"></adresa>
+		</lokacija>
+		<izgradnja narucitelj = "Francesco Tamburini" broj_katova="4">			
+			<arhitekt> Carl Kihlberg </arhitekt>
+			<!--<arhitekt> Henrik Åberg </arhitekt>-->
+			<!--<arhitekt> Francesco Tamburini </arhitekt>-->
+			<velicina>
+				<do_5000/>
+			</velicina>
+			<razdoblje godina = "1879.">
+				<stil_gradnje>
+					<italianate_eclectic/>
+				</stil_gradnje>
+			</razdoblje>
+		</izgradnja>
+	</rezidencija>
+
+	<rezidencija ime = "Cumhurbaşkanlığı Külliyesi" trenutni_predsjednik = "Recep Tayyip Erdoğan" wiki = "Presidential_Complex">
+		<!-- wiki="Cumhurbaşkanlığı_Külliyesi" ali onda nije adresa nego konum-->
+		<lokacija grad = "Ankara">
+			<drzava> 
+				<Turska/> 
+			</drzava>
+			<adresa postanski_broj = "06560" ulica = "Beştepe " broj = "1"></adresa>
+		</lokacija>
+		<izgradnja broj_katova="6">			
+			<arhitekt> Tezcan Candan</arhitekt>
+			<velicina>
+				<do_5000/>
+			</velicina>
+			<razdoblje godina = "2014.">
+				<stil_gradnje>
+					<moderan/>
+				</stil_gradnje>
+			</razdoblje>
+		</izgradnja>
+	</rezidencija>
+
+	<rezidencija ime = "Bellevue Palace" trenutni_predsjednik = "Frank-Walter Steinmeier" wiki="Bellevue_Palace_(Germany)">
+		<lokacija grad = "Berlin">
+			<drzava> 
+				<Njemačka/> 
+			</drzava>
+			<adresa postanski_broj = "10557" ulica = "Spreeweg " broj = "1"></adresa>
+		</lokacija>
+		<izgradnja broj_katova="5">			
+			<arhitekt> Michael Philipp Boumann </arhitekt>
+			<velicina>
+				<do_10000/>
+			</velicina>
+			<razdoblje godina = "1786.">
+				<stil_gradnje>
+					<klasicizam/>
+				</stil_gradnje>
+			</razdoblje>
+		</izgradnja>
+	</rezidencija>
+
+	<rezidencija ime = "Hofburg Palace" trenutni_predsjednik = "Alexander Van der Bellen" wiki = "Hofburg">
+		<lokacija grad = "Beč">
+			<drzava> 
+				<Austrija/> 
+			</drzava>
+			<adresa postanski_broj = "500" ulica = "Michaelerkuppel " broj = "1010"></adresa>
+		</lokacija>
+		<izgradnja broj_katova="6">			
+			<arhitekt>  Johann Bernhard Fischer von Erlach </arhitekt>
+			<velicina>
+				<do_5000/>
+			</velicina>
+			<razdoblje godina = "1279.">
+				<stil_gradnje>
+					<neoklasicizam/>
+				</stil_gradnje>
+			</razdoblje>
+		</izgradnja>
+	</rezidencija>
+
+	<rezidencija ime = "Gouvernementsgebouw" trenutni_predsjednik = "Dési Bouterse" wiki ="Presidential_Palace_of_Suriname">
+		<lokacija grad = "Paramaribo">
+			<drzava> 
+				<Surinam/> 
+			</drzava>
+			<adresa></adresa>
+		</lokacija>
+		<izgradnja broj_katova="4">			
+			<arhitekt>   Charel Emilius Hendrik de Cheusses </arhitekt>
+			<velicina>
+				<do_1000/>
+			</velicina>
+			<razdoblje godina = "1730.">
+				<stil_gradnje>
+					<klasicizam/>
+				</stil_gradnje>
+			</razdoblje>
+		</izgradnja>
+	</rezidencija>
+
+	<rezidencija ime = "Presidential Palace Hanoi" trenutni_predsjednik = "Nguyen Phu Trong" wiki = "Presidential_Palace,_Hanoi">
+		<lokacija grad = "Hanoi">
+			<drzava> 
+				<Vietnam/> 
+			</drzava>
+			<adresa></adresa>
+		</lokacija>
+		<izgradnja broj_katova="4">			
+			<arhitekt>Auguste Henri Vildieu</arhitekt>
+			<velicina>
+				<do_1000/>
+			</velicina>
+			<razdoblje godina = "1975.">
+				<stil_gradnje>
+					<klasicizam/>
+				</stil_gradnje>
+			</razdoblje>
+		</izgradnja>
+	</rezidencija>
+
+	<rezidencija ime = "Prague Castle" trenutni_predsjednik = "Miloš Zeman" wiki="Prague_Castle">
+		<lokacija grad = "Prag">
+			<drzava> 
+				<Češka/> 
+			</drzava>
+			<adresa></adresa>
+		</lokacija>
+		<izgradnja broj_katova="8">			
+			<arhitekt> 	Matthias of Arras</arhitekt>
+			<velicina>
+				<do_5000/>
+			</velicina>
+			<razdoblje godina = "1929.">
+				<stil_gradnje>
+					<barok/>
+				</stil_gradnje>
+			</razdoblje>
+		</izgradnja>
+	</rezidencija>
+
+	<rezidencija ime = "Predsjednički dvori" trenutni_predsjednik = "Kolinda Grabar-Kitarović" wiki="Presidential_Palace,_Zagreb">
+		<lokacija grad = "Zagreb">
+			<drzava> 
+				<Hrvatska/> 
+			</drzava>
+			<adresa postanski_broj = "10000" ulica = "Pantovčak " broj = "241"></adresa>
+		</lokacija>
+		<izgradnja broj_katova="4">			
+			<arhitekt> Vjenceslava Richtera</arhitekt>
+			<velicina>
+				<do_1000/>
+			</velicina>
+			<razdoblje godina = "1963.">
+				<stil_gradnje>
+					<urbanizam/>
+				</stil_gradnje>
+			</razdoblje>
+		</izgradnja>
+	</rezidencija>
+
+	<rezidencija ime = "Potala Palace"  trenutni_predsjednik = "-" wiki = "Potala_Palace">
+		<lokacija grad = "Lhasa">
+			<drzava> 
+				<Tibet/> 
+			</drzava>
+			<adresa></adresa>
+		</lokacija>
+		<izgradnja broj_katova="8">			
+			<arhitekt>	Songtsen Gampo</arhitekt>
+			<velicina>
+				<do_10000/>
+			</velicina>
+			<razdoblje godina = "637.">
+				<stil_gradnje>
+				</stil_gradnje>
+			</razdoblje>
+		</izgradnja>
+	</rezidencija>
+
+	<rezidencija ime = "Buckingham Palace" trenutni_predsjednik = "Queen Elizabeth II" wiki = "Buckingham_Palace">
+		<lokacija grad = "London">
+			<drzava> 
+				<Engleska/> 
+			</drzava>
+			<adresa></adresa>
+		</lokacija>
+		<izgradnja broj_katova="6" narucitelj ="Duke of Buckingham and Normanby">			
+			<arhitekt> William Winde</arhitekt>
+			<velicina>
+				<do_1000/>
+			</velicina>
+			<razdoblje godina = "1761.">
+				<stil_gradnje>
+					<klasicizam/>
+				</stil_gradnje>
+			</razdoblje>
+		</izgradnja>
+	</rezidencija>
+
+</rezidencije>

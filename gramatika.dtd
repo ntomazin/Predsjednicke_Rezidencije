@@ -1,0 +1,45 @@
+<!ELEMENT rezidencije (rezidencija+)>
+<!ELEMENT rezidencija (lokacija, izgradnja,wiki)>
+<!ELEMENT lokacija (drzava, adresa)>
+<!ELEMENT drzava (SAD?, Argentina?, Hrvatska?, Francuska?, Njemačka?, Turska?, Engleska?, Surinam?, Austrija?, Vietnam?, Češka?, Tibet?)>
+<!ELEMENT SAD EMPTY>
+<!ELEMENT Argentina EMPTY>
+<!ELEMENT Hrvatska EMPTY>
+<!ELEMENT Francuska EMPTY>
+<!ELEMENT Njemačka EMPTY>
+<!ELEMENT Turska EMPTY>
+<!ELEMENT Engleska EMPTY>
+<!ELEMENT Surinam EMPTY>
+<!ELEMENT Austrija EMPTY>
+<!ELEMENT Vietnam EMPTY>
+<!ELEMENT Češka EMPTY>
+<!ELEMENT Tibet EMPTY>
+<!ELEMENT adresa EMPTY>
+<!ELEMENT izgradnja (arhitekt+, velicina, razdoblje)>
+<!ELEMENT arhitekt (#PCDATA)>
+<!ELEMENT velicina (do_1000?, do_5000?, do_10000?, preko_10000?)>
+<!ELEMENT do_1000 EMPTY>
+<!ELEMENT do_5000 EMPTY>
+<!ELEMENT do_10000 EMPTY>
+<!ELEMENT preko_10000 EMPTY>
+<!ELEMENT razdoblje (stil_gradnje*)>
+<!ELEMENT stil_gradnje (gotika?, renesansa?, klasicizam?, italianate_eclectic?, moderan?, neoklasicizam?, barok?, urbanizam?)>
+<!ELEMENT gotika EMPTY>
+<!ELEMENT renesansa EMPTY>
+<!ELEMENT klasicizam EMPTY>
+<!ELEMENT italianate_eclectic EMPTY>
+<!ELEMENT moderan EMPTY>
+<!ELEMENT neoklasicizam EMPTY>
+<!ELEMENT barok EMPTY>
+<!ELEMENT urbanizam EMPTY>
+
+<!ATTLIST rezidencija ime CDATA #REQUIRED>
+<!ATTLIST rezidencija trenutni_predsjednik CDATA #IMPLIED>
+<!ATTLIST rezidencija wiki CDATA #IMPLIED>
+<!ATTLIST lokacija grad CDATA #REQUIRED>
+<!ATTLIST adresa postanski_broj CDATA #IMPLIED>
+<!ATTLIST adresa ulica CDATA #IMPLIED>
+<!ATTLIST adresa broj CDATA #IMPLIED>
+<!ATTLIST izgradnja narucitelj CDATA #IMPLIED>
+<!ATTLIST izgradnja broj_katova (1|2|3|4|5|6|7|8|9|10) #IMPLIED>
+<!ATTLIST razdoblje godina CDATA #IMPLIED>
