@@ -1,0 +1,237 @@
+<!DOCTYPE html>
+
+<html lang="hr">
+
+<head>
+
+    <title>Predsjedničke rezidencije</title>
+    <meta charset="UTF-8">
+
+    <link rel = "stylesheet" type = "text/css"
+        title="Stil" href = "dizajn.css"/>
+
+</head>
+
+<body>
+
+    <div id="header">
+        <a href="index.html">
+            <img id="logo1" src="images/logo.jpg" alt="logo">
+            <img id="logo2" src="images/logo.jpg" alt="logo">
+        </a>
+        <h1 >Predsjedničke rezidencije</h1>
+    </div>
+    <div id = "body">
+        <div id ="nav">
+            <ul id = "navLista">
+              <li><a href="index.html">Početna</a></li>
+              <li><a href="obrazac.html">Pretraživanje</a></li>
+              <li><a href="podaci.xml">Podaci</a></li>
+              <li><a href="https://www.fer.unizg.hr/predmet/or">Otvoreno računarstvo</a></li>
+              <li><a href="http://www.fer.unizg.hr/">FER</a></li>
+              <li><a href="mailto:nt49878@fer.hr">Nikola Tomažin</a></li>
+            </ul>
+        </div>
+
+       <div id="row">
+            <div class="column">
+                <div id = "obrazac">
+            <form action="pretraga.php" method="get">
+                <table>
+                    <tr>
+                        <td class="dva"><b>Rezidencija:</b></td>
+                        <td></td>
+                    </tr>
+                    <tr>
+                        <td>Ime:</td>
+                        <td><input type="text" name="ime"><br/></td>
+                    </tr>
+                    <tr>
+                        <td class="dva"><b>Lokacija:</b></td>
+                        <td></td>
+                    </tr>
+                    <tr>
+                        <td>Država:</td>
+                        <td>
+                            <input type="checkbox" name="drzava[]" value="SAD"> SAD<br>
+                            <input type="checkbox" name="drzava[]" value="Indija"> Indija<br>
+                            <input type="checkbox" name="drzava[]" value="Hrvatska"> Hrvatska<br>
+                            <input type="checkbox" name="drzava[]" value="Francuska"> Francuska<br>
+                            <input type="checkbox" name="drzava[]" value="Turska"> Turska<br>
+                            <input type="checkbox" name="drzava[]" value="Argentina"> Argentina<br>
+                            <input type="checkbox" name="drzava[]" value="Rusija"> Rusija<br>
+                            <input type="checkbox" name="drzava[]" value="Njemačka"> Njemačka<br>
+                            <input type="checkbox" name="drzava[]" value="Austrija"> Austrija<br>
+                            <input type="checkbox" name="drzava[]" value="Češka"> Češka<br>
+                            <input type="checkbox" name="drzava[]" value="Surinam"> Surinam<br>
+                            <input type="checkbox" name="drzava[]" value="Poljska"> Poljska<br>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>Grad</td>
+                        <td><input type="text" name="grad"><br></td>
+                    </tr>
+                    <tr>
+                        <td class="dva"><b>Adresa:</b></td>
+                        <td></td>
+                    </tr>
+                    <tr>
+                        <td>Poštanski broj:</td>
+                        <td><input type="text" name="pbr"><br></td>
+                    </tr>
+                    <tr>
+                        <td>Ulica:</td>
+                        <td><input type="text" name="ulica"><br></td>
+                    </tr>
+                    <tr>
+                        <td>Broj:</td>
+                        <td><input type="text" name="broj"><br></td>
+                    </tr>
+                    <tr>
+                        <td class="dva"><b>Izgradnja:</b></td>
+                        <td></td>
+                    </tr>
+                    <tr>
+                        <td>Naručitelj:</td>
+                        <td><input type="text" name="narucitelj"><br></td>
+                    </tr>
+                    <tr>
+                        <td>Arhitekt:</td>
+                        <td><input type="text" name="arhitekt"><br></td>
+                    </tr>
+                     <!--<select multiple size="5">
+                    <tr>
+                        <td>Veličina:</td>
+                        <td>
+
+
+                            <select name = "velicina[]" multiple size="5">
+                              <option value="do_500">0-500m^2</option>
+                              <option value="do_1000">500-1000m^2</option>
+                              <option value="do_5000">1000-5000m^2</option>
+                              <option value="do_10000">5000-10000m^2</option>
+                              <option value="preko_10000">preko 10000m^2</option>   
+                            </select>
+                       
+
+
+                              <option name ="velicina[]" value="do_500">0-500m^2</option>
+                              <option name ="velicina[]" value="do_1000">500-1000m^2</option>
+                              <option name ="velicina[]" value="do_5000">1000-5000m^2</option>
+                              <option name ="velicina[]" value="do_10000">5000-10000m^2</option>
+                              <option name ="velicina[]" value="preko_10000">preko 10000m^2</option>
+                              
+                          
+                        </td>
+                    </tr>
+                      </select>--->
+                    <tr>
+                        <td>Broj Katova:</td>
+                        <td>
+                            <input type="radio" name="brkat[]" value="1"> 1<br>
+                            <input type="radio" name="brkat[]" value="2"> 2<br>
+                            <input type="radio" name="brkat[]" value="3"> 3<br>
+                            <input type="radio" name="brkat[]" value="4"> 4<br>
+                            <input type="radio" name="brkat[]" value="5"> 5<br>
+                            <input type="radio" name="brkat[]" value="6"> 6<br>
+                            <input type="radio" name="brkat[]" value="7"> 7<br>
+                            <input type="radio" name="brkat[]" value="8"> 8<br>
+                            <input type="radio" name="brkat[]" value="9"> 9<br>
+                            <input type="radio" name="brkat[]" value="10"> 10<br>
+
+                            <div class="slidecontainer">
+                              <input type="range" min="1" max="10" value="1" class="slider" id="myRange">
+                              <p>Value: <span id="demo"></span></p>
+                        </div>
+                        </td>
+                    </tr>
+                </br>
+                </br>
+                <!--
+                    <tr>
+                        <td>Broj soba:</td>
+                        <td><input type="text" name="brsoba"><br>
+                        </br>
+                        <div class="slidecontainer">
+                              <input type="range" min="0" max="5000" value="100" class="slider" id="myRange">
+                              <p>Value: <span id="demo"></span></p>
+                        </div>
+                        </td>
+                    </tr>
+                -->
+                    <tr>
+                        <td class="dva"><b>Razdoblje:</b></td>
+                        <td></td>
+                    </tr>
+                    <tr>
+                        <td>Stil gradnje:</td>
+                        <td><select name = "multi[]" multiple size="5">
+                              <option value="barok">Barok</option>
+                              <option value="renesansa">Renesansa</option>
+                              <option value="klasicizam">Klasicizam</option>
+                              <option value="gotika">Gotika</option>
+                              <option value="delord">Delhi order</option>
+                            </select>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>Godina završetka gradnje:</td>
+                        <td><input type="text" name="godina"><br></td>
+                    </tr>
+                    <tr>
+                        <td>Trenutni predsjednik:</td>
+                        <td><input type="text" name="predsjednik"><br></td>
+                    </tr>
+                    <tr>
+                        <td>Wiki PageID:</td>
+                        <td><input type="text" name="wikiID"><br></td>
+                    </tr>
+
+                    <tr>
+                        <td><input type="submit" name="potvrdi" value = "Potvrdi"><br></td>
+                        <td><input type="reset" name="reset" value = "Poništi"><br></td>
+                    </tr>
+               
+                </table>
+            </form>
+        </div>
+
+                
+            </div>
+            <div class="column">
+                <a class = "test">
+                    <img class="imageOn" src="images/kremlin.jpg" alt="Kremlin" style="width:100%" >
+                    <!--
+                    <img id="rezidencije" src="casarosada.jpg" alt="Casa Rosada" align="center" height="100%" width="100%">
+                    -->
+                </a>
+                <a class = "test">
+                    <img class="imageOn" src="images/casarosada.jpg" alt="Casa Rosada" style="width:100%" >
+                </a>
+                <a class = "test">
+                    <img class="imageOn" src="images/p.jpg" alt="Prag dvorac" style="width:100%" >
+                </a>
+
+                
+            </div>
+        </div>
+    </div>
+
+    <div id = "footer">
+        @Autor : Nikola Tomažin
+    </div>
+
+
+    <script>
+        var slider = document.getElementById("myRange");
+        var output = document.getElementById("demo");
+        output.innerHTML = slider.value;
+
+        slider.oninput = function() {
+          output.innerHTML = this.value;
+        }
+    </script>
+
+
+    </body>
+</html>
